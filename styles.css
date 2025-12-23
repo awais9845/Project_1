@@ -145,15 +145,17 @@ span {
     justify-content: center;
     padding: 70px;
 }
-.serleft h2{
+
+.serleft h2 {
     font-size: 30px;
 }
 
 .serright {
     width: 40%;
 }
+
 /* help section  */
-.help{
+.help {
     display: flex;
     /* justify-content: center; */
     /* align-items: center; */
@@ -161,56 +163,65 @@ span {
     background-color: #F5F7FA;
     padding: 30px;
 }
-.helpleft{
+
+.helpleft {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 5px;
     width: 40%;
-    margin-left:10%;
+    margin-left: 10%;
 }
-.helpright{
+
+.helpright {
     display: grid;
     grid-template-columns: 50% 50%;
     gap: 60px;
     width: 60%;
     justify-content: center;
 }
+
 .helpright div {
     display: flex;
     gap: 20px;
 }
-.helpnum{
+
+.helpnum {
     display: flex;
     flex-direction: column;
 }
 
 /* customer seciton  */
-.customer{
-   display: flex;
-   gap: 30px;
-   padding: 30px;
-   background-color: #F5F7FA;
+.customer {
+    display: flex;
+    gap: 30px;
+    padding: 30px;
+    background-color: #F5F7FA;
 }
-.cusimg{
+
+.cusimg {
     width: 20%;
     height: 250px;
     /* border: 1px solid; */
 }
-.cusimg img{
+
+.cusimg img {
     width: 100%;
     height: 100%;
 }
-.cusdes{
+
+.cusdes {
     width: 70%;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-.customersubchild{
+
+.customersubchild {
     display: flex;
     gap: 50px;
 }
+
 .customersubchild div {
     display: flex;
     justify-content: center;
@@ -219,40 +230,47 @@ span {
 }
 
 /* market section */
-.market{
+.market {
     display: flex;
     flex-direction: column;
     gap: 40px;
     margin-top: 20px;
 }
-.markettop{
+
+.markettop {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.markettop h2{
+
+.markettop h2 {
     width: 30%;
 }
-.markettop p{
+
+.markettop p {
     width: 55%;
     text-align: center;
 }
-.markimage{
+
+.markimage {
     width: 250px;
     height: 250px;
     /* border: 1px solid; */
     position: relative;
 }
-.markimagechild1{
+
+.markimagechild1 {
     width: 250px;
     height: 200px;
 }
-.markimagechild1 img{
+
+.markimagechild1 img {
     width: 100%;
     height: 100%;
 }
-.markimagechild2{
+
+.markimagechild2 {
     background-color: white;
     position: absolute;
     left: 20px;
@@ -265,19 +283,21 @@ span {
     align-items: center;
     box-shadow: 0px 0px 3px #F5F7FA;
 }
-.markimagechild2 p{
+
+.markimagechild2 p {
     text-align: center;
 }
-.marketbottom{
+
+.marketbottom {
     width: 80%;
-   display: grid;
-   grid-template-columns: repeat(3, 1fr );
-   justify-content: space-evenly;
-   margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-evenly;
+    margin: 0px auto;
 }
 
 /* demo section  */
-.demo{
+.demo {
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -287,29 +307,34 @@ span {
     background-color: #F5F7FA;
     padding: 20px;
 }
-.demo h1{
+
+.demo h1 {
     font-size: 50px;
     text-align: center;
 }
+
 /* footer section  */
-.footer{
+.footer {
     background-color: #263238;
     padding: 20px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
-.company{
+
+.company {
     display: flex;
     flex-direction: column;
     gap: 10px;
     color: white;
 }
-.footerright{
+
+.footerright {
     display: flex;
     gap: 60px;
 }
-.footerlogo{
+
+.footerlogo {
     display: flex;
     gap: 2px;
     color: white;
@@ -318,168 +343,210 @@ span {
 .footer div {
     color: white;
 }
-.footerleft{
+
+.footerleft {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-input{
+
+input {
     padding: 4px 8px;
     outline: none;
     background-color: rgb(65, 64, 64);
     border: 1px solid rgb(65, 64, 64);
     border-radius: 8px;
 }
-a{
+
+a {
     text-decoration: none;
     color: #4CAF4F;
 }
-@media  screen and (max-width: 600px) {
-    .unorderedlist{
+
+@media screen and (max-width: 600px) {
+    .unorderedlist {
         display: none;
     }
-    .hero{
+
+    .hero {
         display: flex;
         flex-direction: column;
         width: 100%;
     }
-    .heroleft h1{
+
+    .heroleft h1 {
         font-size: 32px;
         width: 100%;
     }
-    .heroleft{
+
+    .heroleft {
         width: 100%;
     }
-    .heroright{
-        width: 300px;
-        overflow: hidden;
+
+    .heroright {
+        
     }
-    .heroright img{
+
+    .heroright img {
         width: 100%;
+        margin-left: 70%;
     }
-    .smallicons{
+    .clients {
+        margin: 0px 10px;
+    }
+
+    .smallicons {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         margin-left: 26px;
     }
-    .primarybtn{
+
+    .primarybtn {
         width: 100%;
     }
-    .mngcards{
+
+    .mngcards {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 10px;
-        
+
     }
-    .services{
+
+    .services {
         display: flex;
         flex-direction: column-reverse;
     }
-    .serleft{
+
+    .serleft {
         width: 100%;
         padding: 0;
         gap: 0;
         overflow: hidden;
     }
-    .serright{
+
+    .serright {
         width: 300px;
         overflow: hidden;
     }
-    .serright img{
+
+    .serright img {
         width: 100%;
     }
-    .help{
+
+    .help {
         display: flex;
         flex-direction: column;
     }
-    .helpleft{
+
+    .helpleft {
         width: 100%;
     }
-    .helpright{
+
+    .helpright {
         width: 100%;
     }
-    .customer{
+
+    .customer {
         display: flex;
         flex-direction: column;
         padding: 0px;
         gap: 0;
     }
-    .customersubchild{
+
+    .customersubchild {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
-    .cusimg{
+
+    .cusimg {
         width: 100%;
     }
-    .cusdes{
+
+    .cusdes {
         width: 100%;
         padding: 2px;
     }
-    .marketbottom{
+
+    .marketbottom {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .markettop h2{
+
+    .markettop h2 {
         width: 100%;
         text-align: center;
     }
-    .markettop p{
+
+    .markettop p {
         width: 100%;
     }
-    .footer{
+
+    .footer {
         display: flex;
         flex-direction: column;
     }
-    .footerright{
+
+    .footerright {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
     }
 }
+
 @media screen and (min-width:601px) and (max-width:768px) {
-    .navbar{
+    .navbar {
         display: flex;
         justify-content: space-between;
     }
-    .hero h1{
+
+    .hero h1 {
         font-size: 35px;
     }
-    .heroright{
+
+    .heroright {
         margin-top: 20px;
     }
-   .heroright img{
-    width: 250px;
-    height: 250px;
-   }
-   .services{
-    gap: 0;
-    margin: 0;
-   }
-   .serright{
-    margin-top: 20px;
-   }
-   .customer{
-    display: flex;
-    flex-direction: column;
-   }
-   .cusimg{
-    width: 100%;
-   }
-   .cusdes{
-    width: 100%;
-   }
-   .marketbottom{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-   }
-   .footerright{
-    gap: 20px;
-   }
+
+    .heroright img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .services {
+        gap: 0;
+        margin: 0;
+    }
+
+    .serright {
+        margin-top: 20px;
+    }
+
+    .customer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cusimg {
+        width: 100%;
+    }
+
+    .cusdes {
+        width: 100%;
+    }
+
+    .marketbottom {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .footerright {
+        gap: 20px;
+    }
 }
